@@ -1,5 +1,5 @@
 Description:
-  This program gathers data from a google sheet, sorts the data into usable variables then creates GET and POST requests
+  This program is written in Python and gathers data from a google sheet, sorts the data into usable variables then creates GET and POST requests
   to and from the provided APIs. Before the program is ready to run with an alternate google sheet you will need to authorize 
   API usage on the sheet then create a credentials.json file that the program will inherit from. If the columns of the provided
   data change there are variables that store the relative index of the column and can be easily changed. The google sheet will 
