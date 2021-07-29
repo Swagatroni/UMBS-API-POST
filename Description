@@ -12,3 +12,6 @@ Tips:
   There are also a few print statements to see what functions are being called and how they are operating, but can be commented out/deleted if need be.
   There is also a block comment at the bottom that adds a single request to the queue for testing purposes.
   There is also an error if you attempt to proccess to many request within a certain time, but should be easily fixed with a sleep timer.
+  
+  Here is a reference link to how to get your google sheet ready for the program --> https://www.youtube.com/watch?v=cnPlKLEGR7E&t=318s
+  
