@@ -1,3 +1,4 @@
+# Created by Kenneth Thomas, Jr.
 import time
 import gspread
 import requests
