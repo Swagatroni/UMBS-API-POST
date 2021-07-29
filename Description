@@ -1,0 +1,14 @@
+Description:
+  This program gathers data from a google sheet, sorts the data into usable variables then creates GET and POST requests
+  to and from the provided APIs. Before the program is ready to run with an alternate google sheet you will need to authorize 
+  API usage on the sheet then create a credentials.json file that the program will inherit from. If the columns of the provided
+  data change there are variables that store the relative index of the column and can be easily changed. The google sheet will 
+  throw an error if there are to many request within a 100 second period but can be easily remidied with a sleep timer.
+
+Tips:
+  In the program, there are 9 lines at the top that dictate what information is in which column and are assigned to variables for an easy way to change the import column.
+  To use this program you will have to change the credentials name and the name of the google sheet. 
+  There are commented-out lines in the handleExtension and handlePayment functions that activate the link to send the confirmation text.
+  There are also a few print statements to see what functions are being called and how they are operating, but can be commented out/deleted if need be.
+  There is also a block comment at the bottom that adds a single request to the queue for testing purposes.
+  There is also an error if you attempt to proccess to many request within a certain time, but should be easily fixed with a sleep timer.
